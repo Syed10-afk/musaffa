@@ -1,0 +1,32 @@
+﻿.hero-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-media img {
+  display: block;
+  width: 100%;
+  max-width: 680px;
+  height: auto;
+  border-radius: 1.5rem;
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .hero-media {
+    justify-content: flex-end;
+  }
+}
+
+/* Shariah governance styles */
+.shariah-governance {
+  background: #ffffff;
+}
+.shariah-governance .scholars-grid img {
+  border-radius: 9999px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+.shariah-governance figcaption {
+  font-weight: 600;
+}
